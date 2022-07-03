@@ -27,29 +27,3 @@ exports.uniswapQuery = `
 }
 `;
 
-exports.getCompoundQuery = {
-  function(_tokenSymbol){
-    return (
-    `
-    {
-      markets(where:{symbol:${_tokenSymbol}}) {
-        underlyingAddress
-        cash
-        borrowRate
-        supplyRate
-        name
-        collateralFactor
-        totalSupply
-        totalBorrows
-        underlyingPriceUSD
-        reserves
-        symbol
-        underlyingName
-      }
-    }
-    
-    `
-    
-    )
-  }
-}
