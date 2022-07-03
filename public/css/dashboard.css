@@ -1,0 +1,42 @@
+/* classes */
+.app-navbar{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.title{
+    text-align: center;
+   
+}
+
+
+.active-btn{
+    display: inline;
+
+}
+
+.btn{
+    margin: 1% 1% 0 1%
+}
+
+
+.volumeUSD-container{
+    text-align: center;
+}
+.volumeUSD-desc{
+    opacity: 0.7;
+   font-size: 2vw;
+    
+}
+.uniswapChart-container{
+    position: relative;
+    width: 85%;
+    height: 85%;
+    margin: 0 auto;
+   
+}
+
+
+
+
+/* Object */

@@ -1,0 +1,90 @@
+/* Object */
+
+.app-navbar{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+body{
+    background-color: rgb(33,37,41);
+}
+main{
+    margin: 0 15%;
+    color: white;
+}
+
+.col-xl-3{
+    
+    padding: 2%;
+}
+
+/* Classes*/
+.title{
+    text-align: center;
+    color: white;
+    margin: 2% 0% 5% 0%;
+}
+/* //#eb367abf */
+
+.price-col{
+    margin: 0 auto;
+}
+
+
+.row{
+    margin: auto;
+}
+
+
+.price-container{
+    box-sizing:content-box ;
+    color: black;
+    width: 25vh;
+    height: 25vh;
+    border-radius: 25px;
+    background-color: white;
+    margin: auto;
+    position: relative;
+    
+}
+
+.price-container:hover{
+    opacity: 0.8;
+
+}
+
+.price-container-title{
+    padding-top: 10%;
+    margin-left: 10%;
+    
+}
+
+.price-logo{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+}
+
+.price-desc{
+    margin-left: 10%;
+}
+
+.superfarm-price-logo{
+    position: absolute;
+    top: 57%;
+}
+.shib-price-logo{
+    position: absolute;
+    bottom: 9%;
+    left: 9%
+}
+
+.active-btn{
+    display: inline;
+
+}
+
+.btn{
+    margin: 1% 1% 0 1%
+}
+
