@@ -20,8 +20,6 @@ listId = data.listId
  
 //Exhanges Query
 uniswapQuery = data.uniswapQuery
-compoundQuery = data.getCompoundQuery("cUSDC")
-//For compound we will serve up the query on demand, as we will take in input tokenSymbol
 
 // ---------------------------------------------SERVER SECTION---------------------------------------------------
 
